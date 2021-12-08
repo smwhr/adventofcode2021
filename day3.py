@@ -14,6 +14,8 @@ for i in range(0,bitlen):
     gamma += df[i+1].value_counts().idxmax()
     epsilon += df[i+1].value_counts().idxmin()
 
+breakpoint()
+
 
 print(f"gamma : {int(gamma, 2)}")
 print(f"epsilon : {int(epsilon, 2)}")
